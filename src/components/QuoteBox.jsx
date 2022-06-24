@@ -7,11 +7,10 @@ const QuoteBox = () => {
     const colors = ["#D65DB1", "#FF6F91", "#FF9671", "#845EC2", "#0089BA", "#008E9B", "#4D8076", "#B39CD0"];
  
     const random = Math.floor(Math.random() * quotes.length);
-    const random2 = Math.floor(Math.random() * colors.length);
 
 
     const[ quote , setQuote ] = useState(random);
-    const [color, setColor] = useState(random2);
+    const [color, setColor] = useState(colors[Math.floor(Math.random () * colors.length)]);
 
     const changeQuote = () =>{
         setQuote(Math.floor(Math.random () * quotes.length))

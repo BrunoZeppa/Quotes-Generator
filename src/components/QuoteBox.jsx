@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import quotes from './quote.json';
-import more from './img/mas.png'
+import arrow from './img/arrow.png';
 
 const QuoteBox = () => {
 
@@ -25,7 +25,7 @@ const QuoteBox = () => {
             <article style={{color: color}}>
                 <p>{quotes[quote].quote}</p>
                 <p>{quotes[quote].author}</p>
-                <div onClick={changeQuote} style={{backgroundColor: color}}><img src={more} /></div>
+                <div onClick={changeQuote} style={{backgroundColor: color}}><img src={arrow} /></div>
             </article>
 
         </div>

@@ -9,6 +9,7 @@ html{
 }
 
 @media screen and ( min-width: 350px ){
+
   .card{
     width: 30rem;
     height: 30rem;
@@ -27,14 +28,28 @@ html{
   .card p{
     font-size: 2rem;
   }
-  .card span{
-    font-size: 20px;
-  }
+
   .card i{
     font-size: 6rem;
   }
-  .card div{
-    margin-right: 10px;
+ 
+  .card article{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    min-width: 19rem;
+  }
+
+  
+  button > img{
+    width: 3rem;
+    height: 3rem;
+    align-self: center;
+  }
+  button{
+    position: absolute;
+    margin-left: 33rem;
+    margin-top: 24rem;
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
@@ -46,25 +61,9 @@ html{
     box-shadow: 10px 7px 9px 0px rgba(36,36,36,0.76);
   -webkit-box-shadow: 10px 7px 9px 0px rgba(36,36,36,0.76);
   -moz-box-shadow: 10px 7px 9px 0px rgba(36,36,36,0.76);
-  
-  }
-  .card article{
-    display: flex;
-    flex-direction: column;
-    text-align: end;
-    min-width: 19rem;
-  }
-  
-  .card img{
-    width: 3rem;
-    height: 3rem;
-    align-self: center;
   }
   
   }
-
-
-
 
 
 @media screen and ( min-width: 599px ){
@@ -87,13 +86,17 @@ html{
   .card p{
     font-size: 2rem;
   }
-  .card span{
-    font-size: 20px;
-  }
+ 
   .card i{
     font-size: 8rem;
   }
-  .card div{
+  .card article{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    min-width: 39rem;
+  }
+  button{
     margin-right: 10px;
     width: 5rem;
     height: 5rem;
@@ -108,14 +111,7 @@ html{
   -moz-box-shadow: 10px 7px 9px 0px rgba(36,36,36,0.76);
   
   }
-  .card article{
-    display: flex;
-    flex-direction: column;
-    text-align: end;
-    min-width: 39rem;
-  }
-  
-  .card img{
+  button >img{
     width: 3rem;
     height: 3rem;
     align-self: center;
@@ -126,9 +122,6 @@ html{
 
 
 @media screen and ( min-width: 830px ){
-
-
-
 
 .card{
   width: 80rem;
@@ -148,16 +141,21 @@ html{
 .card p{
   font-size: 2rem;
 }
-.card span{
-  font-size: 20px;
-}
 .card i{
   font-size: 9rem;
 }
-.card div{
-  margin-right: 10px;
-  width: 5rem;
-  height: 5rem;
+
+.card article{
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  min-width: 70rem;
+}
+
+button{
+  position: absolute;
+  margin-left: 74rem;
+  margin-top: 17rem;
   border-radius: 50%;
   align-self: flex-end;
   display: flex;
@@ -169,14 +167,7 @@ html{
 -moz-box-shadow: 10px 7px 9px 0px rgba(36,36,36,0.76);
 
 }
-.card article{
-  display: flex;
-  flex-direction: column;
-  text-align: end;
-  min-width: 70rem;
-}
-
-.card img{
+button> img{
   width: 3rem;
   height: 3rem;
   align-self: center;

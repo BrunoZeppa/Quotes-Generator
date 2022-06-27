@@ -1,6 +1,7 @@
+import Btn from "./btn";
 
 
-const QuoteBox = ({randomQuoteQuote, randomQuoteAuthor, randomColor}) => {
+const QuoteBox = ({randomQuoteQuote, randomQuoteAuthor, randomColor, changeAll}) => {
 
 
 
@@ -10,6 +11,7 @@ const QuoteBox = ({randomQuoteQuote, randomQuoteAuthor, randomColor}) => {
             <article>
             <p>{randomQuoteQuote}</p>
             <p>{randomQuoteAuthor}</p>
+            <Btn changeAll={changeAll} randomColor={randomColor} />
             </article>
         </section>
     );

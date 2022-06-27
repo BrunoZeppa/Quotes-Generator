@@ -25,8 +25,7 @@ function App() {
 
   return (
     <>
-      <Btn changeAll={changeAll} randomColor={color} />
-      <QuoteBox randomQuoteQuote={quotes[quote].quote} randomQuoteAuthor={quotes[quote].author} randomColor={color} />
+      <QuoteBox changeAll={changeAll} randomQuoteQuote={quotes[quote].quote} randomQuoteAuthor={quotes[quote].author} randomColor={color} />
     </>
   )
 }

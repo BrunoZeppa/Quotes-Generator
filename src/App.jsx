@@ -22,7 +22,7 @@ function App() {
 
   document.body.style = `background: ${randomColor}`;
 
-
+/*probando*/
   return (
     <>
       <QuoteBox changeAll={changeAll} randomQuoteQuote={quotes[quote].quote} randomQuoteAuthor={quotes[quote].author} randomColor={color} />

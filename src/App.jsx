@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css';
-import Btn from './components/btn';
 import QuoteBox from './components/QuoteBox';
 import quotes from './components/quote.json';
 
@@ -22,7 +21,7 @@ function App() {
 
   document.body.style = `background: ${randomColor}`;
 
-/*probando*/
+
   return (
     <>
       <QuoteBox changeAll={changeAll} randomQuoteQuote={quotes[quote].quote} randomQuoteAuthor={quotes[quote].author} randomColor={color} />

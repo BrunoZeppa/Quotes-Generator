@@ -1,4 +1,4 @@
-import Btn from "./btn";
+import Btn from "./Btn";
 
 
 const QuoteBox = ({randomQuoteQuote, randomQuoteAuthor, randomColor, changeAll}) => {
